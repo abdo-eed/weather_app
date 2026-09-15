@@ -1,16 +1,29 @@
-# weather_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Weather App
+A Flutter weather application that provides current weather information and hourly forecasts based on the selected city.
+Features
+• Search for weather by city name
+• Display current weather conditions
+• Show minimum and maximum temperatures
+• Hourly weather forecast
+• Weather details including humidity, wind, visibility, and UV index
+• Animated weather-based background
+• Error handling for invalid cities and API errors
+• State management using Cubit
+Technologies Used
+• Flutter
+• Dart
+• Cubit (Bloc)
+• Dio
+• WeatherAPI
+• flutter_dotenv
+How to Run
+1. Clone the repository.
+2. Run flutter pub get.
+3. Create a .env file in the project root.
+4. Add your WeatherAPI key:
+WEATHER_API_KEY=YOUR_API_KEY_HERE
+5. Run the application with flutter run.
+Screenshots
+Current Weather
+Weather Details
+Hourly Forecast
